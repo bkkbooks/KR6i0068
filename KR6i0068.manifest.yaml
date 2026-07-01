@@ -1,0 +1,54 @@
+canonical_identifier: bkk:krp/KR6i0068/v1
+canonical_location: https://kanripo.org/bkk/KR6i0068/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 大乘伽耶山頂經
+  identifiers:
+    alt_id:
+    - T14n0467
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T14/T14n0467.xml
+    old_id: T14n0467
+  edition:
+    short: bkk
+editions:
+- short: 宋
+  label: 宋
+  source_xml_id: wit1
+- short: 元
+  label: 元
+  source_xml_id: wit2
+- short: 明
+  label: 明
+  source_xml_id: wit3
+- short: 宮
+  label: 宮
+  source_xml_id: wit4
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6i0068_000.yaml, hash: 'sha256:805527fba4044e6ff240b1d10e6269cbba45bf5d129b2cc662692c16b7ae9208'}
+  - {seq: 1, filename: KR6i0068_001.yaml, hash: 'sha256:5c9a897cce2b1ccac4465f8c5222f98de84645b9ebe0eef8bf7a6d56380d48f9'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6i0068_001.markers.yaml, hash: 'sha256:d3dfa407bbd77a2ee91e0066c3f15cf9de69a2409ba976503c6b686abebeef1e'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6i0068_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 3554
+  label: 大乘伽耶山頂經
+  type: juan
+  level: 1
+hash: sha256:05ddac7989ae163bf3e7f34aa46a32c8f53fb5b66bc6a5a9d1cd3fd9bf04737a
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

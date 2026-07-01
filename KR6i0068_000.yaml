@@ -1,0 +1,17 @@
+canonical_identifier: bkk:krp/KR6i0068/t/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 大乘伽耶山頂經
+  edition:
+    short: t
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T14/T14n0467.xml
+    old_id: T14n0467
+hash: sha256:805527fba4044e6ff240b1d10e6269cbba45bf5d129b2cc662692c16b7ae9208
