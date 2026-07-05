@@ -34,9 +34,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6i0068_000.yaml, hash: 'sha256:805527fba4044e6ff240b1d10e6269cbba45bf5d129b2cc662692c16b7ae9208'}
-  - {seq: 1, filename: KR6i0068_001.yaml, hash: 'sha256:5c9a897cce2b1ccac4465f8c5222f98de84645b9ebe0eef8bf7a6d56380d48f9'}
+  - {seq: 1, filename: KR6i0068_001.yaml, hash: 'sha256:1bcb853f887db71d4d2dd69974a1497f9f9a48f89d75ce7bccb36f4684b1ce41'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6i0068_001.markers.yaml, hash: 'sha256:d3dfa407bbd77a2ee91e0066c3f15cf9de69a2409ba976503c6b686abebeef1e'}
+  - {seq: 0, role: markers, filename: assets/KR6i0068_000.markers.yaml, hash: 'sha256:f7c00f430d5cb82ec6cbf28b9d12e005ad0b2c465d6e445c8dd924f0d88c5b0f'}
+  - {seq: 1, role: markers, filename: assets/KR6i0068_001.markers.yaml, hash: 'sha256:9213512a4c2ef711ce2f376c8486c49dff0d1b60be6eb326725e17c6959e620c'}
 table_of_contents:
 - ref:
     seq: 1
@@ -48,7 +49,4 @@ table_of_contents:
   label: 大乘伽耶山頂經
   type: juan
   level: 1
-hash: sha256:05ddac7989ae163bf3e7f34aa46a32c8f53fb5b66bc6a5a9d1cd3fd9bf04737a
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:c41ad2f0d7ff2ef1d16d49e2e38258f338c4bfd60a102ca4bd44d20e859a98b6
