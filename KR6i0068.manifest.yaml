@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6i0068/v1
 canonical_location: https://kanripo.org/bkk/KR6i0068/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 大乘伽耶山頂經
   identifiers:
@@ -34,10 +34,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6i0068_000.yaml, hash: 'sha256:805527fba4044e6ff240b1d10e6269cbba45bf5d129b2cc662692c16b7ae9208'}
-  - {seq: 1, filename: KR6i0068_001.yaml, hash: 'sha256:1bcb853f887db71d4d2dd69974a1497f9f9a48f89d75ce7bccb36f4684b1ce41'}
+  - {seq: 1, filename: KR6i0068_001.yaml, hash: 'sha256:2601b960ffc63ebe0b789029cd05a321e70b46630b60130ac7e7d5c8a97e200e'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6i0068_000.markers.yaml, hash: 'sha256:f7c00f430d5cb82ec6cbf28b9d12e005ad0b2c465d6e445c8dd924f0d88c5b0f'}
-  - {seq: 1, role: markers, filename: assets/KR6i0068_001.markers.yaml, hash: 'sha256:9213512a4c2ef711ce2f376c8486c49dff0d1b60be6eb326725e17c6959e620c'}
+  - {seq: 1, role: markers, filename: assets/KR6i0068_001.markers.yaml, hash: 'sha256:8e0926ec5bc443b35a73f337b295c8c56fc35b506f0b12703c39a90f8da12cb9'}
 table_of_contents:
 - ref:
     seq: 1
@@ -49,4 +49,7 @@ table_of_contents:
   label: 大乘伽耶山頂經
   type: juan
   level: 1
-hash: sha256:c41ad2f0d7ff2ef1d16d49e2e38258f338c4bfd60a102ca4bd44d20e859a98b6
+hash: sha256:4ff6593dc2d4c27d30c00fcd20de315b925ddcbbb42f1b8a6d237fbe49046b6c
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
